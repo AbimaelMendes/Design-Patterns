@@ -18,4 +18,10 @@ class Author
     {
         $this->pages[] = $page;
     }
+
+
+    public function getPage(): array
+    {
+        return $this->pages;
+    }
 }
